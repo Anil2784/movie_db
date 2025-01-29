@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getAllMovies, getUpcomingMovies } from '../actions/movies.action';
+import {useDispatch, useSelector } from 'react-redux';
+import {getUpcomingMovies } from '../actions/movies.action';
 import MovieCard from '../components/MovieCard';  // Import the MovieCard component
 import { Link } from 'react-router-dom';
 import Pagination from '../components/Pagination';

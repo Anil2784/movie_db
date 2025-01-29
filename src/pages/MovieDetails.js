@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { findByMovieCastDetails, findByMovieDetails, getAllMovies } from '../actions/movies.action';
-import MovieCard from '../components/MovieCard';
+import { findByMovieCastDetails, findByMovieDetails } from '../actions/movies.action';
+
 import MovieDetailsCard from '../components/MovieDetailsCard';  // Import MovieDetailsCard
 import { useParams } from 'react-router-dom';
 import MovieCastCard from '../components/MovieCastCard';

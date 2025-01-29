@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate, useParams,useSearchParams } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import './Header.css'; // Optional for styling
 
 const Header = () => {

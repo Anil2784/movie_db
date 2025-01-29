@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import UserProfile from './components/UserProfile';
+
 import MovieDetails from './pages/MovieDetails';
 import UpcommingMovie from './pages/UpcommingMovie';
 import TopRatedMovie from './pages/TopRatedMovie';
